@@ -10,7 +10,7 @@ const Home = () => {
     <div className="">
       <h1 className="text-5xl font-bold">Employee Attendance Management System</h1>
       <p className="py-6">Empower Your Workforce, Elevate Efficiency: Seamless Attendance Management, Smarter Business Solutions.</p>
-      <Link to='/register'><button className="btn btn-primary">Get Started</button></Link>
+      <Link to='/dataVisual'><button className="btn btn-primary">Get Started</button></Link>
     </div>
   </div>
 </div>
@@ -26,7 +26,7 @@ const Home = () => {
     <h2 className="card-title">Data Processing</h2>
     <p>You can create accounts, log in, and reset passwords. Administrators have additional privileges for user management.</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn btn-primary">Get Service</button>
     </div>
   </div>
 </div>
@@ -39,7 +39,7 @@ const Home = () => {
     <h2 className="card-title">Data Visualization</h2>
     <p>You can select from a range of data visualization options, including bar charts, line graphs, and pie charts, for viewing attendance data over specified timeframes.</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
+      <Link to='/dataVisual'><button className="btn btn-primary">Get Service</button></Link> 
     </div>
   </div>
 </div>
@@ -52,7 +52,7 @@ const Home = () => {
     <h2 className="card-title">Data Export</h2>
     <p>You can export visualized data in PDF, PNG, or CSV formats for further analysis and reporting.</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn btn-primary">Get Service</button>
     </div>
   </div>
 </div>

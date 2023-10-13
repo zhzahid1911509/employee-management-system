@@ -9,6 +9,8 @@ import Home from './pages/Home';
 import CommonLayout from './components/CommonLayout/CommonLayout';
 import Login from './components/Authentication/Login';
 import Register from './components/Authentication/Register';
+import DataVisual from './components/DataVisualization/DataVisual';
+import Design from './pages/Design';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register></Register>
+      },
+      {
+        path: '/dataVisual',
+        element: <DataVisual></DataVisual>
+      },
+      {
+        path: '/design',
+        element: <Design></Design>
       }
     ]
   },
